@@ -109,7 +109,7 @@ Le FortiGate utilise des serveurs DNS configurés pour assurer la résolution de
 Compétences démontrées : DNS ; services réseau.
 <img width="1346" height="666" alt="009-FGT-DNS" src="https://github.com/user-attachments/assets/17a544ad-e3b8-4407-8898-c09fccfc76df" />
 
-11.2 Split DNS
+   11.2 Split DNS
 
 Une zone DNS interne permet d'adapter la résolution d'un domaine associé à l'environnement 3CX selon le contexte réseau.
 Compétences démontrées : Split DNS ; résolution interne ; architecture de services.
@@ -117,80 +117,80 @@ Compétences démontrées : Split DNS ; résolution interne ; architecture de se
 
 12. VPN
 
-12.1 Configuration du VPN
+    12.1 Configuration du VPN
 
 La configuration VPN comprend une Phase 1, une Phase 2, une segmentation du tunnel, un réseau distant et une politique associée au VPN.
-
 Compétences démontrées : VPN ; IPsec ; sécurisation des accès distants.
+<img width="1103" height="617" alt="013-FGT-VPN" src="https://github.com/user-attachments/assets/395dcbb1-6fdd-4d51-93fb-05ac2375630b" />
 
-12.2 Validation avec FortiClient
+   12.2 Validation avec FortiClient
 
 La configuration est validée avec FortiClient et montre un état de connexion VPN établi avec le profil VPN du laboratoire.
-
 Compétences démontrées : FortiClient ; validation d'un tunnel ; accès distant sécurisé.
+<img width="870" height="579" alt="014-FGT_Client" src="https://github.com/user-attachments/assets/f5bb3109-7674-4c02-941e-c7739b3ce4d6" />
 
 13. SD-WAN et multi-WAN
 
-13.1 Intégration de WAN1 et WAN2
-
+    13.1 Intégration de WAN1 et WAN2
 Deux interfaces WAN ont été intégrées au SD-WAN afin de gérer plusieurs chemins de connectivité Internet.
-
 Compétences démontrées : SD-WAN ; multi-WAN ; résilience réseau.
+<img width="1666" height="354" alt="015-FGT-SDWAN" src="https://github.com/user-attachments/assets/8b41f878-f0d2-4639-a008-adc33be62dc1" />
 
 14. Règle SD-WAN
 
-14.1 Règle SD-WAN
+    14.1 Règle SD-WAN
 
 Une règle SD-WAN nommée SDWAN-Internet utilise WAN1 et WAN2 comme membres et prend notamment en compte la latence.
-
 Compétences démontrées : Règles SD-WAN ; sélection de chemin ; qualité réseau.
+<img width="1662" height="291" alt="016-FTG-RGL_SDWAN" src="https://github.com/user-attachments/assets/403cd391-ede9-4094-8e5f-2840c330382c" />
 
 15. Sondes SLA
 
-15.1 Sondes SLA SD-WAN
-
+    15.1 Sondes SLA SD-WAN
 Les sondes SLA permettent de mesurer la qualité des liens WAN, notamment la latence, la perte de paquets et la gigue.
-
 Compétences démontrées : SLA ; monitoring ; latence ; perte de paquets ; gigue.
+<img width="1570" height="717" alt="0018-FGT-SONDE-SDWAN" src="https://github.com/user-attachments/assets/a4896b84-620c-495b-9689-6ef25b383559" />
 
 16. Monitoring SD-WAN
 
-16.1 Monitoring SD-WAN
+    16.1 Monitoring SD-WAN
 
 Le monitoring présente l'état des interfaces WAN et les métriques associées. Cette capture complète la configuration SD-WAN, les règles et les sondes SLA.
-
 Compétences démontrées : Supervision WAN ; analyse des performances ; SD-WAN.
+<img width="1762" height="533" alt="019-FGT_monitoring-sdwan" src="https://github.com/user-attachments/assets/5724aa58-799b-427f-80a3-010447b9a7cf" />
 
 17. Filtrage Web
 
-17.1 Filtrage Web
+    17.1 Filtrage Web
 
 Un profil de filtrage Web nommé LAB17-WEB-FILTER a été configuré avec des catégories de risques en blocage. La capture indique également une limitation liée à la licence FortiGuard Web Filtering pour certaines fonctions.
-
 Compétences démontrées : Web Filtering ; contrôle d'accès ; compréhension des dépendances de licence.
+<img width="1406" height="903" alt="020-FGT-FILTRAGE-WEB" src="https://github.com/user-attachments/assets/6dc007ef-4ee3-4d9a-91c3-6e1d3c837a5a" />
 
 18. Prévention d'intrusion — IPS
 
-18.1 IPS
+    18.1 IPS
 
 Le module IPS présente des signatures classifiées par sévérité, cible, système d'exploitation, action et CVE. Les exemples visibles comprennent SQL Injection, Buffer Overflow, Remote Code Execution et Botnet.
-
 Compétences démontrées : IPS ; signatures de sécurité ; CVE ; prévention d'intrusion.
+<img width="1790" height="934" alt="022-FGT-IPS" src="https://github.com/user-attachments/assets/0f417c2a-84e9-4ad3-91a1-c92baa3d0955" />
 
 19. Journalisation et analyse du trafic
 
-19.1 Journaux FortiGate
+    19.1 Journaux FortiGate
 
 Les journaux permettent d'observer les communications traitées par le pare-feu, notamment la date/heure, la source, la destination, l'application, le résultat et la règle utilisée. Des flux associés à 3CX sont visibles.
-
 Compétences démontrées : Logs Firewall ; analyse des flux ; troubleshooting ; validation des politiques.
+<img width="1790" height="934" alt="022-FGT-IPS" src="https://github.com/user-attachments/assets/9e8b38bf-b971-4fef-8d79-f98c4c94daa1" />
 
 20. QoS et Traffic Shaping pour la VoIP
 
-20.1 QoS et Traffic Shaping
+    20.1 QoS et Traffic Shaping
 
 Une politique QOS-VOIP-3CX applique le Traffic Shaper high-priority au trafic SIP et RTP 9000-10999 afin de prioriser les communications VoIP.
 Compétences démontrées : QoS ; Traffic Shaping ; SIP ; RTP ; optimisation de la VoIP.
+<img width="1798" height="586" alt="023-FGT-QOS" src="https://github.com/user-attachments/assets/cfc64042-5c34-49cd-af2d-e9ddb8aed7ae" />
+
 21. Compétences démontrées
 
 Administration réseau
