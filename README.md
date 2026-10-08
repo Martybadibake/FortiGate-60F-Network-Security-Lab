@@ -49,69 +49,71 @@ Compétences démontrées : Segmentation LAN/DMZ/WAN ; conception réseau ; cont
 
 6. Routage IPv4
 
-6.1 Configuration du routage
+   6.1 Configuration du routage
 
 La table de routage du FortiGate contient notamment une route par défaut 0.0.0.0/0 permettant au trafic destiné aux réseaux externes d'être transmis vers la passerelle WAN.
 
 Compétences démontrées : Routage IPv4 ; route par défaut ; analyse réseau.
+<img width="1290" height="649" alt="003-FGT-Routage" src="https://github.com/user-attachments/assets/10449d59-91ce-403b-bea9-57afc3901405" />
 
-6.2 Validation du routage avec la CLI
+   6.2 Validation du routage avec la CLI
 
 La table de routage a également été vérifiée directement depuis la CLI FortiOS afin d'identifier les routes connectées, la route par défaut et les interfaces associées.
-
 Compétences démontrées : CLI FortiOS ; diagnostic réseau ; lecture d'une table de routage.
+<img width="1470" height="956" alt="004-FGT-Routage-B" src="https://github.com/user-attachments/assets/edba9cae-60aa-4a7e-9f29-da9c872a0b52" />
 
 7. Objets réseau et services
 
-7.1 Objets d'adresses
+   7.1 Objets d'adresses
 
 Des objets d'adresses ont été créés afin de représenter les réseaux et serveurs utilisés dans les politiques de sécurité, notamment le LAN, la DMZ et le serveur 3CX.
-
 Compétences démontrées : Gestion d'objets réseau ; lisibilité et maintenabilité des politiques.
 
-7.2 Objets de services
+<img width="1367" height="805" alt="005-FGT-Addresse" src="https://github.com/user-attachments/assets/1bc91c59-57b4-4ae4-b628-21ec79cab609" />
+
+   7.2 Objets de services
 
 Des objets de services représentent les protocoles et ports nécessaires aux applications, notamment HTTPS, SIP et RTP.
-
 Compétences démontrées : Gestion des services ; contrôle précis des ports et protocoles.
+<img width="1352" height="830" alt="006-FGT-Services" src="https://github.com/user-attachments/assets/130628a3-8cf9-4147-902c-fe3b81b4a4aa" />
 
 8. Publication du serveur 3CX
 
-8.1 VIP / DNAT HTTPS
+   8.1 VIP / DNAT HTTPS
 
 Une règle VIP permet de publier le service HTTPS du serveur 3CX situé dans la DMZ. Le FortiGate agit comme point de contrôle entre Internet et le serveur.
-
 Compétences démontrées : VIP ; DNAT ; publication de services ; sécurisation d'une DMZ.
+<img width="1362" height="693" alt="007-FGT- DNAT-VIP-ublication HTTPS 3CX" src="https://github.com/user-attachments/assets/09887b4f-635b-491d-9a99-2737fcfd4f82" />
 
 9. Politiques Firewall
 
-9.1 Organisation des politiques
+    9.1 Organisation des politiques
 
 Les politiques Firewall définissent explicitement les communications autorisées entre les différentes zones. Une logique de blocage des communications DMZ vers LAN est notamment utilisée.
-
 Compétences démontrées : Firewall Policy ; segmentation ; moindre privilège ; contrôle inter-zones.
+<img width="1378" height="810" alt="007-FGT-Politique-Objet" src="https://github.com/user-attachments/assets/8528b1cd-b50a-426c-ab60-a0923e3a6238" />
 
 10. Accès Internet du serveur 3CX
 
-10.1 DMZ vers Internet avec NAT
+    10.1 DMZ vers Internet avec NAT
 
 Une politique dédiée permet au serveur 3CX de communiquer vers Internet avec NAT activé sur la sortie WAN. La source est limitée au serveur 3CX.
-
 Compétences démontrées : NAT ; filtrage sortant ; contrôle du trafic DMZ.
+<img width="1278" height="827" alt="008-FGT-DMZ-3CX-to-Internet-NAT" src="https://github.com/user-attachments/assets/a3ff45fb-cea4-4da6-b978-aecd8470f830" />
 
 11. DNS et Split DNS
 
-11.1 Configuration DNS
+    11.1 Configuration DNS
 
 Le FortiGate utilise des serveurs DNS configurés pour assurer la résolution des noms nécessaires à l'infrastructure.
-
 Compétences démontrées : DNS ; services réseau.
+<img width="1346" height="666" alt="009-FGT-DNS" src="https://github.com/user-attachments/assets/17a544ad-e3b8-4407-8898-c09fccfc76df" />
 
 11.2 Split DNS
 
 Une zone DNS interne permet d'adapter la résolution d'un domaine associé à l'environnement 3CX selon le contexte réseau.
-
 Compétences démontrées : Split DNS ; résolution interne ; architecture de services.
+<img width="1112" height="647" alt="010-FGT-Split DNS" src="https://github.com/user-attachments/assets/e2797581-7761-4e78-bdd7-6356898be83b" />
 
 12. VPN
 
