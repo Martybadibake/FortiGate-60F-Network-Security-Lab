@@ -1,4 +1,4 @@
-# FortiGate-60F-Network-Security-Lab
+ # FortiGate-60F-Network-Security-Lab
 FortiGate-60F-Network-Security-Lab
 
 Déploiement, sécurisation et optimisation d'une infrastructure réseau avec FortiGate 60F
@@ -27,6 +27,7 @@ Architecture multi-WAN / SD-WAN
 4. Préparation et administration du FortiGate
 
  4.1 Vue générale des interfaces
+<img width="1359" height="708" alt="001-vue-generale-interfaces" src="https://github.com/user-attachments/assets/d37af954-c8da-4796-98f5-b62942963c3b" />
 
 Cette capture présente l'organisation générale des interfaces du FortiGate 60F. Elle permet de documenter les interfaces internes, la DMZ, WAN1, WAN2 et l'organisation de la connectivité du laboratoire.
 
