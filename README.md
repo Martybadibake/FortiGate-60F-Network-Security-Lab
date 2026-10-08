@@ -33,7 +33,7 @@ Cette capture présente l'organisation générale des interfaces du FortiGate 60
 Compétences démontrées : Administration d'un FortiGate physique ; identification des interfaces ; organisation de l'infrastructure réseau.
 <img width="1359" height="708" alt="001-vue-generale-interfaces" src="https://github.com/user-attachments/assets/b4350775-a117-40ea-837c-fb8d1f3ed6db" />
 
-   4.2. Inventaire et administration
+   4.2 Inventaire et administration
 
 Cette capture documente l'environnement d'administration du FortiGate 60F et l'organisation des interfaces utilisées par le laboratoire.
 Compétences démontrées : Administration via FortiOS ; identification des composants réseau.
