@@ -27,11 +27,10 @@ Architecture multi-WAN / SD-WAN
 4. Préparation et administration du FortiGate
 
  4.1 Vue générale des interfaces
-<img width="1359" height="708" alt="001-vue-generale-interfaces" src="https://github.com/user-attachments/assets/d37af954-c8da-4796-98f5-b62942963c3b" />
 
 Cette capture présente l'organisation générale des interfaces du FortiGate 60F. Elle permet de documenter les interfaces internes, la DMZ, WAN1, WAN2 et l'organisation de la connectivité du laboratoire.
-
 Compétences démontrées : Administration d'un FortiGate physique ; identification des interfaces ; organisation de l'infrastructure réseau.
+<img width="1359" height="708" alt="001-vue-generale-interfaces" src="https://github.com/user-attachments/assets/b4350775-a117-40ea-837c-fb8d1f3ed6db" />
 
 4.2 Inventaire et administration
 
