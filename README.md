@@ -25,6 +25,7 @@ Architecture multi-WAN / SD-WAN
 
 3. Technologies et outils utilisés
 4. Préparation et administration du FortiGate
+
 4.1. Vue générale des interfaces
    
 
