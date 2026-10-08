@@ -321,30 +321,9 @@ Confirmer le résultat
 
 Ce laboratoire m'a permis de développer une compréhension plus complète du rôle d'un pare-feu nouvelle génération dans une infrastructure réseau.
 
-Segmentation réseau
+Segmentation réseau ; Administration Firewall; NAT et publication de services; Sécurisation d'une DMZ; VPN; DNS; SD-WAN; Supervision; IPS; Analyse des journaux; QoS.
 
-Administration Firewall
-
-NAT et publication de services
-
-Sécurisation d'une DMZ
-
-VPN
-
-DNS
-
-SD-WAN
-
-Supervision
-
-IPS
-
-Analyse des journaux
-
-QoS
-
-J'ai également compris l'importance de considérer la sécurité comme un ensemble de mécanismes complémentaires.
-
+J'ai également compris l'importance de considérer la sécurité comme un ensemble de mécanismes complémentaires; 
 Segmentation + Firewall + NAT + IPS + Logs + SD-WAN + QoS
 
 24. Approche de sécurité
@@ -391,26 +370,8 @@ Au-delà de la configuration des fonctionnalités, ce projet m'a permis de déve
 
 26. Technologies et compétences clés
 
-FortiGate 60F
-FortiOS
-Firewall
-LAN / DMZ / WAN
-IPv4 Routing
-NAT / DNAT
-VIP
-DNS / Split DNS
-VPN / IPsec
-FortiClient
-SD-WAN
-SLA
-IPS
-Web Filtering
-Firewall Logs
-QoS
-Traffic Shaping
-3CX / VoIP
-SIP / RTP
-Network Troubleshooting
+FortiGate 60F; FortiOS; Firewall; LAN / DMZ / WAN; IPv4 Routing; NAT / DNAT; VIP; DNS / Split DNS; VPN / IPsec; FortiClient; SD-WAN; SLA; IPS; Web Filtering; Firewall Logs; QoS; Traffic Shaping; 3CX / VoIP; SIP / RTP
+Network Troubleshooting.
 
 
 
