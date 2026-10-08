@@ -27,7 +27,7 @@ Architecture multi-WAN / SD-WAN
 
   4. Préparation et administration du FortiGate
 
-  4.1 Vue générale des interfaces
+    4.1 Vue générale des interfaces
 
 Cette capture présente l'organisation générale des interfaces du FortiGate 60F. Elle permet de documenter les interfaces internes, la DMZ, WAN1, WAN2 et l'organisation de la connectivité du laboratoire.
 
