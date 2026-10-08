@@ -35,16 +35,16 @@ Compétences démontrées : Administration d'un FortiGate physique ; identificat
 4.2 Inventaire et administration
 
 Cette capture documente l'environnement d'administration du FortiGate 60F et l'organisation des interfaces utilisées par le laboratoire.
-
 Compétences démontrées : Administration via FortiOS ; identification des composants réseau.
+<img width="1470" height="956" alt="001-FGT-B-Inventaire et administration" src="https://github.com/user-attachments/assets/575ceb75-056f-4334-b6ab-864a28577f85" />
 
 5. Configuration des interfaces réseau
 
 5.1 LAN, DMZ et WAN
 
 Le FortiGate sépare l'infrastructure en plusieurs zones réseau. Le LAN représente le réseau interne, la DMZ les services exposés ou contrôlés, et WAN1/WAN2 la connectivité externe.
-
 Compétences démontrées : Segmentation LAN/DMZ/WAN ; conception réseau ; contrôle inter-zones.
+<img width="1405" height="724" alt="002-FGT- Interfaces LAN _ DMZ_WAN" src="https://github.com/user-attachments/assets/5116e885-9cb7-41aa-bd6a-8979a9adbb80" />
 
 6. Routage IPv4
 
